@@ -1,0 +1,241 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15-mar-2018, 9:06:19
+    Author     : mrhighway98
+*/
+
+body {
+  background-color: #663399;
+  color: white;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: purple !important;
+  min-height: 30px !important;
+}
+
+.navbar-inverse .navbar-nav > li > a,
+.navbar-inverse .navbar-brand {
+    color: #ffffff !important;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-brand:hover {
+    color: #c5c5c5 !important;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  nav.navbar.open {
+    margin-bottom: 120px;
+  }
+}
+/* NAVBAR */
+
+
+/* SLIDER */
+.slide {
+  border-bottom: 1px solid black;
+}
+/* SLIDER */
+
+
+/* CONTENIDO */
+.contenedor {
+  padding-bottom: 200px !important;
+  background-color: #663399 !important;
+}
+
+.container-fluid {
+  padding: 0px 70px 0px 70px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.caja {
+  background-color: #885bb5;
+  padding: 1px 30px 5px 30px;
+}
+
+.caja h3 {
+  text-align: center;
+}
+
+.caja p {
+  text-align: justify;
+}
+
+.contenido {
+  padding-bottom: 40px;
+}
+
+.separator {
+  width: 50px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-top: 1px solid white;
+}
+
+.form-izquierda {
+  float: left !important;
+  width: 50% !important;
+}
+
+.form-derecha {
+  float: left !important;
+  width: 50% !important;
+}
+
+.form-medio {
+  text-align: center !important;
+}
+
+.anadir {
+  width: 96.5%;
+  margin: 0 auto;
+}
+
+.table tbody tr td {
+    padding: 10px !important;
+    vertical-align: middle !important;
+}
+
+.inicio .centro-container {
+  height: 759px;
+  width: 100%;
+  text-align: center;
+  display: table;
+  position: relative;
+}
+
+.inicio .contenedor, .inicio .contenido {
+  padding-bottom: 0px !important;
+}
+
+.inicio .centro {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.modal-header {
+  justify-content: space-between;
+  align-items: flex-start;
+  display: flex;
+}
+
+.modal {
+  color: #666 !important;
+}
+
+.modal-header:before {
+  display: none;
+}
+
+.modal-header:after {
+  display: none;
+}
+
+#Contenedor {
+  width: 400px;
+  margin: 50px auto;
+  background-color: #F3EDED;
+  border: 1px solid #ECE8E8;
+  height: 400px;
+  border-radius:8px;
+  padding: 0px 9px 0px 9px;
+}
+
+.Icon span {
+  background: #A8A6A6;
+  padding: 20px;
+  border-radius: 120px;
+}
+
+.Icon {
+  margin-top: 10px;
+  margin-bottom:10px; 
+  color: #FFF;
+  font-size: 50px;
+  text-align: center;
+}
+/* CONTENIDO */
+
+
+
+/* FOOTER */
+@media screen and (max-width: 768px) {
+  footer .fixed-bottom {
+    position: fixed !important;
+  }
+}
+
+footer {
+  z-index: 10000;
+  -moz-box-shadow: 13px 13px 10px 11px #FFFFFF;
+    -webkit-box-shadow: 13px 13px 10px 11px #FFFFFF;
+    box-shadow: 13px 13px 10px 11px #FFFFFF;
+}
+
+footer.page-footer {
+  bottom: 0;
+  color: #ffffff;
+}
+
+footer.page-footer .container-fluid {
+    width: auto;
+}
+
+footer.page-footer .footer-copyright {
+    overflow: hidden;
+    background-color: purple;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 15px 0px 15px 0px;
+    border-top: 1px solid black;
+}
+
+footer.page-footer a {
+  color: #ffffff;
+}
+
+footer.page-footer a:hover {
+  color: #c5c5c5;
+}
+
+.font-small {
+  font-size: 14px;
+}
+
+.footer-wrapper {
+  background-color: #663399;
+}
+
+.fixed-bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .fixed-bottom {
+    position: relative;
+  }
+  
+  .caja {
+    margin-bottom: 45px;
+  }
+}
+
+
+
+/* {} */
