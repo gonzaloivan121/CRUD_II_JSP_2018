@@ -98,3 +98,34 @@ HashMap<String, String> acceso = new HashMap<String, String>();
 
 %>
 ```
+
+## LOS TIPOS DE INSTRUMENTOS ESTÁN GUARDADOS EN UN ARRAYLIST
+
+### Código JSP/HTML
+
+```
+...
+<%
+  ArrayList<String> instrumento = new ArrayList();
+  instrumento.add("Guitarra Eléctrica");
+  instrumento.add("Guitarra Acústica");
+  instrumento.add("Guitarra Española");
+  instrumento.add("Bajo Eléctrico");
+  instrumento.add("Bajo Acústico");
+  instrumento.add("Batería Acústica");
+  instrumento.add("Batería Eléctrica");
+%>
+
+<div class="form-group">
+	<select type="text" class="form-control select-instrumentos" name="instrumento">
+  <option value="" selected disabled hidden>Elige el instrumento</option>
+
+  <%
+  for (String x : instrumento) {
+    out.println("<option>" + x + "</option>");
+  }
+  %>
+	</select>
+<div>
+...
+```
