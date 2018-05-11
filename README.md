@@ -1,6 +1,8 @@
-# CRUD_II_JSP_2018 (V2)
+# TIENDA MUSICAL
 
-Este ejercicio en JSP y MySQL será sobre una tienda de música (Guitarras, Bajos y Baterías).  
+## Proyecto CRUD con JSP, MySQL, Bootstrap y JavaScript
+
+Este ejercicio en JSP será sobre una tienda de música (Guitarras, Bajos y Baterías).  
 
 
 ## Descripción
@@ -87,13 +89,18 @@ HashMap<String, String> acceso = new HashMap<String, String>();
       response.sendRedirect("home.jsp");
       
     } else {
-      out.println("<div class='alert alert-success' role='alert'>Contraseña incorrecta</div>");
-      out.println("<a href='index.jsp' class='btn btn-primary'><span class='glyphicon glyphicon-home'></span>Volver a iniciar sesión</button></a>");
+      out.println("<script type=\"text/javascript\">");
+      out.println("alert('¡Contraseña Incorrecta!');");
+      out.println("location='index.jsp';");
+      out.println("</script>");
+      
     }
 
   } else {
-    out.println("<div class='alert alert-success' role='alert'>El usuario no existe</div>");
-    out.println("<a href='index.jsp' class='btn btn-primary'><span class='glyphicon glyphicon-home'></span>Volver a iniciar sesión</button></a>");
+    out.println("<script type=\"text/javascript\">");
+    out.println("alert('¡El usuario " + usuario + " no existe!');");
+    out.println("location='index.jsp';");
+    out.println("</script>");
   }
 
 %>
